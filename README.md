@@ -23,7 +23,6 @@ Or add following line to your composer.json:
 
 ```php
 <?php
-<?php
 include 'vendor/autoload.php';
 use ArashDalir\UdpSysLog\Handler\UdpSyslog;
 
