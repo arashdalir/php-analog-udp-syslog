@@ -1,0 +1,24 @@
+{
+  "name": "arashdalir/php-analog-udp-syslog",
+  "authors": [
+    {
+      "name": "Arash Dalir",
+      "email": "arash.dalir+github@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ArashDalir\\UdpSysLog\\": "./src"
+    }
+  },
+  "provide": {
+    "psr/log-implementation": "1.0.0"
+  },
+  "require": {
+    "php": "^5.6",
+    "psr/log": "^1.0",
+    "arashdalir/php-psr3log": "^1.1",
+    "analog/analog": "^1.0"
+  },
+  "description": "Extension of arashdalir/php-psr3log handler for udp-based syslog client for analog."
+}
